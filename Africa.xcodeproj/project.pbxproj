@@ -35,6 +35,7 @@
 		E211CA59268645280076582C /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E211CA58268645280076582C /* Animal.swift */; };
 		E246D8582686FFEA00CC2468 /* AnimalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E246D8572686FFEA00CC2468 /* AnimalDetailView.swift */; };
 		E246D85A268701C100CC2468 /* HeadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E246D859268701C100CC2468 /* HeadingView.swift */; };
+		E2563913268768830031D432 /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2563912268768830031D432 /* MapAnnotationView.swift */; };
 		E27DBF492687031100D5A628 /* InsetGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27DBF482687031100D5A628 /* InsetGalleryView.swift */; };
 		E27DBF4B2687063000D5A628 /* animals.json in Resources */ = {isa = PBXBuildFile; fileRef = E27DBF4A2687063000D5A628 /* animals.json */; };
 		E27DBF4D268708F500D5A628 /* InsetFactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27DBF4C268708F500D5A628 /* InsetFactView.swift */; };
@@ -44,6 +45,7 @@
 		E27DBF55268723A000D5A628 /* VideoListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27DBF54268723A000D5A628 /* VideoListItemView.swift */; };
 		E27DBF5726875F1100D5A628 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27DBF5626875F1100D5A628 /* VideoPlayerView.swift */; };
 		E27DBF5A26875FE900D5A628 /* VideoPlayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27DBF5926875FE900D5A628 /* VideoPlayerHelper.swift */; };
+		E27DBF5C268763CC00D5A628 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27DBF5B268763CC00D5A628 /* Location.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -77,6 +79,7 @@
 		E211CA58268645280076582C /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
 		E246D8572686FFEA00CC2468 /* AnimalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailView.swift; sourceTree = "<group>"; };
 		E246D859268701C100CC2468 /* HeadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadingView.swift; sourceTree = "<group>"; };
+		E2563912268768830031D432 /* MapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationView.swift; sourceTree = "<group>"; };
 		E27DBF482687031100D5A628 /* InsetGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetGalleryView.swift; sourceTree = "<group>"; };
 		E27DBF4A2687063000D5A628 /* animals.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animals.json; sourceTree = "<group>"; };
 		E27DBF4C268708F500D5A628 /* InsetFactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetFactView.swift; sourceTree = "<group>"; };
@@ -86,6 +89,7 @@
 		E27DBF54268723A000D5A628 /* VideoListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListItemView.swift; sourceTree = "<group>"; };
 		E27DBF5626875F1100D5A628 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
 		E27DBF5926875FE900D5A628 /* VideoPlayerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerHelper.swift; sourceTree = "<group>"; };
+		E27DBF5B268763CC00D5A628 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,6 +198,7 @@
 				E27DBF4E26870ACA00D5A628 /* InsetMapView.swift */,
 				E27DBF54268723A000D5A628 /* VideoListItemView.swift */,
 				E27DBF5626875F1100D5A628 /* VideoPlayerView.swift */,
+				E2563912268768830031D432 /* MapAnnotationView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -204,6 +209,7 @@
 				E211CA5126863DDC0076582C /* CoverImage.swift */,
 				E211CA58268645280076582C /* Animal.swift */,
 				E27DBF522687233400D5A628 /* Video.swift */,
+				E27DBF5B268763CC00D5A628 /* Location.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -319,6 +325,8 @@
 				E27DBF4F26870ACA00D5A628 /* InsetMapView.swift in Sources */,
 				E27DBF5A26875FE900D5A628 /* VideoPlayerHelper.swift in Sources */,
 				E211CA5226863DDC0076582C /* CoverImage.swift in Sources */,
+				E27DBF5C268763CC00D5A628 /* Location.swift in Sources */,
+				E2563913268768830031D432 /* MapAnnotationView.swift in Sources */,
 				E211CA46268629C10076582C /* VideoListView.swift in Sources */,
 				E211CA4A26862A100076582C /* GalleryView.swift in Sources */,
 				E27DBF532687233500D5A628 /* Video.swift in Sources */,
