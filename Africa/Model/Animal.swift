@@ -12,7 +12,7 @@ struct Animal: Codable, Identifiable {
     let name: String
     let headline: String
     let description: String
-    let liunk: String
+    let link: String
     let image: String
     let gallery: [String]
     let fact: [String]

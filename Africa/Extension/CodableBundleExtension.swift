@@ -8,10 +8,10 @@
 import Foundation
 
 extension Bundle {
-    func decode<T: Codable>(_ file: String) ->  [T] {
-        // 1. Localte the JSON file
+    func decode<T: Codable>(_ file: String) -> T {
+        // 1. Locate the json file
         guard let url = self.url(forResource: file, withExtension: nil) else {
-            fatalError("Failed to localte \(file) in bundle")
+            fatalError("Failed to locate \(file) in bundle.")
         }
         
         // 2. Create a property for the data
@@ -22,12 +22,12 @@ extension Bundle {
         // 3. Create a decoder
         let decoder = JSONDecoder()
         
-        // 4. Create a ready-to-use data
-        guard let loaded = try? decoder.decode([T].self, from: data) else {
+        // 4. Create a property for the decoded data
+        guard let loaded = try? decoder.decode(T.self, from: data) else {
             fatalError("Failed to decode \(file) from bundle.")
         }
         
-        // Return the ready-to-use data
+        // 5. Return the ready-to-use data
         return loaded
     }
 }
