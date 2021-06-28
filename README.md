@@ -5,6 +5,8 @@ Screenshots:
 
 ![alt tag1](images/africa-01.jpg)
 ![alt tag2](images/africa-02.jpg)
+![alt tag3](images/africa-03.jpg)
+![alt tag4](images/africa-04.jpg)
 
 Visit my blog for more info: [www.oscargarrucho.com](http://www.oscargarrucho.com/)
 
