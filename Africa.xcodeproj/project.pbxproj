@@ -33,6 +33,7 @@
 		E211CA5526863E9A0076582C /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E211CA5426863E9A0076582C /* CodableBundleExtension.swift */; };
 		E211CA57268643EA0076582C /* AnimalListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E211CA56268643EA0076582C /* AnimalListItemView.swift */; };
 		E211CA59268645280076582C /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E211CA58268645280076582C /* Animal.swift */; };
+		E23B2A6626898D16008E0331 /* AnimalGridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23B2A6526898D16008E0331 /* AnimalGridItemView.swift */; };
 		E246D8582686FFEA00CC2468 /* AnimalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E246D8572686FFEA00CC2468 /* AnimalDetailView.swift */; };
 		E246D85A268701C100CC2468 /* HeadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E246D859268701C100CC2468 /* HeadingView.swift */; };
 		E2563913268768830031D432 /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2563912268768830031D432 /* MapAnnotationView.swift */; };
@@ -78,6 +79,7 @@
 		E211CA5426863E9A0076582C /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
 		E211CA56268643EA0076582C /* AnimalListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListItemView.swift; sourceTree = "<group>"; };
 		E211CA58268645280076582C /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		E23B2A6526898D16008E0331 /* AnimalGridItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalGridItemView.swift; sourceTree = "<group>"; };
 		E246D8572686FFEA00CC2468 /* AnimalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailView.swift; sourceTree = "<group>"; };
 		E246D859268701C100CC2468 /* HeadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadingView.swift; sourceTree = "<group>"; };
 		E2563912268768830031D432 /* MapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationView.swift; sourceTree = "<group>"; };
@@ -191,6 +193,7 @@
 			isa = PBXGroup;
 			children = (
 				E246D8572686FFEA00CC2468 /* AnimalDetailView.swift */,
+				E23B2A6526898D16008E0331 /* AnimalGridItemView.swift */,
 				E211CA56268643EA0076582C /* AnimalListItemView.swift */,
 				E211CA4E26863BCE0076582C /* CoverImageView.swift */,
 				E27DBF5026870D3C00D5A628 /* ExternalWebLinkView.swift */,
@@ -334,6 +337,7 @@
 				E211CA4A26862A100076582C /* GalleryView.swift in Sources */,
 				E27DBF532687233500D5A628 /* Video.swift in Sources */,
 				E27DBF492687031100D5A628 /* InsetGalleryView.swift in Sources */,
+				E23B2A6626898D16008E0331 /* AnimalGridItemView.swift in Sources */,
 				E27DBF5126870D3C00D5A628 /* ExternalWebLinkView.swift in Sources */,
 				E27DBF55268723A000D5A628 /* VideoListItemView.swift in Sources */,
 				E211CA5526863E9A0076582C /* CodableBundleExtension.swift in Sources */,
